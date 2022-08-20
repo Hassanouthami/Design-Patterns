@@ -1,3 +1,7 @@
+import Abstract_Factory.AF_main;
+import Abstract_Factory.AObjectI;
+import Abstract_Factory.AbstractObject;
+import Abstract_Factory.Factory;
 import Factory.ObjectFactory;
 import Factory.ObjectI;
 import Singleton.SingletonInstance;
@@ -15,6 +19,10 @@ public class Main {
         object1.action();
         ObjectI object2 = ObjectFactory.getObject("object1");
         object2.action();
+
+        AF_main.run();
+
+
 
 
     }
